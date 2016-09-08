@@ -7,7 +7,7 @@
 
 ## Projects
 
-*[Webapp Assembly Guide](https://github.com/kshowalter/Webapp-Assembly-Guide)
+* [Webapp Assembly Guide](https://github.com/kshowalter/Webapp-Assembly-Guide)
   * A framework standard in development
 * For the Florida Solar Energy Center
   * [Solar Plans Designer](https://github.com/FSEC/SPD)
