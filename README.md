@@ -1,3 +1,3 @@
 # Keith Showalter
 
-see [index.md](index.md)
+My home site repository.
