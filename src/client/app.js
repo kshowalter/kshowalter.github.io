@@ -50,10 +50,10 @@ var print_specs = function print_specs(specs, logger, indent_string){
   indent_string += '  ';
   if( specs.children ){
     specs.children.forEach(function(child_specs){
-      print_specs(child_specs, logger, indent_string)
-    })
+      print_specs(child_specs, logger, indent_string);
+    });
   }
-}
+};
 
 
 // Load page content
@@ -117,6 +117,7 @@ var router = hash_router(function(selection){
   console.log('selection: ', selection);
 
   if( ! selection ){
+    console.log('re-ROUTING... to About');
     router('About');
   } else {
     var selected_page_id = selection.join('/');
@@ -125,7 +126,7 @@ var router = hash_router(function(selection){
     if( ! selected_location ){
       selected_location = '/';
     }
-    console.log('ROUTING...');
+    console.log('ROUTING... '+selected_page_id);
     var page = pages[selected_page_id];
     var page_specs;
     if( ! page ){
@@ -149,17 +150,6 @@ var router = hash_router(function(selection){
           },
           text: 'Keith Showalter :'
         }
-        //*/
-        /*
-        {
-          tag: 'img',
-          props: {
-            alt: 'Keith Showalter :',
-            src: 'assets/title_black.png',
-            width: '350px'
-          }
-        }
-        //*/
       ]
     };
 
@@ -185,7 +175,7 @@ var router = hash_router(function(selection){
       pages['menu'].specs.children[0].children.forEach(function(li_spec){
         var name = li_spec.children[0].children[0];
         var prety_name = f.pretty_name(name);
-        var href = li_spec.children[0].props.href
+        var href = li_spec.children[0].props.href;
         //console.log(page_id === selected_page_id, page_id , selected_page_id );
         var selected = href.slice(2) === selected_page_id;
         //console.log('selected', page_id, selected_page_id, selected);
@@ -247,7 +237,7 @@ var router = hash_router(function(selection){
       document.body.style['background-color'] = null;
     }
 
-
-
   }
 });
+
+router();
