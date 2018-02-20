@@ -277,6 +277,7 @@ var router = Object(__WEBPACK_IMPORTED_MODULE_3_hash_router__["a" /* default */]
   console.log('selection: ', selection);
 
   if (!selection) {
+    console.log('re-ROUTING... to About');
     router('About');
   } else {
     var selected_page_id = selection.join('/');
@@ -285,7 +286,7 @@ var router = Object(__WEBPACK_IMPORTED_MODULE_3_hash_router__["a" /* default */]
     if (!selected_location) {
       selected_location = '/';
     }
-    console.log('ROUTING...');
+    console.log('ROUTING... ' + selected_page_id);
     var page = pages[selected_page_id];
     var page_specs;
     if (!page) {
