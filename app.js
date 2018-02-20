@@ -309,17 +309,6 @@ var router = Object(__WEBPACK_IMPORTED_MODULE_3_hash_router__["a" /* default */]
           class: 'terminal'
         },
         text: 'Keith Showalter :'
-        //*/
-        /*
-        {
-          tag: 'img',
-          props: {
-            alt: 'Keith Showalter :',
-            src: 'assets/title_black.png',
-            width: '350px'
-          }
-        }
-        //*/
       }]
     };
 
@@ -402,6 +391,8 @@ var router = Object(__WEBPACK_IMPORTED_MODULE_3_hash_router__["a" /* default */]
     }
   }
 });
+
+router();
 
 /***/ }),
 /* 15 */
@@ -1555,12 +1546,14 @@ module.exports = f;
 "use strict";
 /* harmony default export */ __webpack_exports__["a"] = (function(callback){
 
-  function router(callback) {
+  function hash_check(callback) {
     if( location.hash === '' || location.hash === '#' || location.hash === '#/' ){
-      window.location.hash = '#/';
+      //window.location.hash = '#/';
       callback(false);
     } else {
+      //console.log('location.hash',location.hash);
       var url = location.hash.slice(2) || '/';
+      //console.log('url',url);
       var values = url.split('/');
 
       callback(values);
@@ -1570,18 +1563,20 @@ module.exports = f;
 
   // Listen on hash change:
   window.addEventListener('hashchange', function(){
-    router(callback);
+    hash_check(callback);
   });
   // Listen on page load:
-  window.addEventListener('load', function(){
-    router(callback);
-  });
+  //window.addEventListener('load', function(){
+  //  hash_check(callback);
+  //});
 
   return function(new_route){
-    if( new_route.constructor === String ){
+    if( new_route && new_route.constructor === String ){
       window.location.hash = '#/' + new_route;
+      //hash_check(callback);
     } else {
-      console.warn('new route is not a string');
+      hash_check(callback);
+      //console.warn('new route is not a string');
     }
   };
 
@@ -1741,6 +1736,7 @@ module.exports = function(target){
       }
       if( newSpecs.constructor === Object ){
         //newSpecs._id = 'r.0';
+        console.log('---',newSpecs);
         this.specs = mkDOM(this.rootSpecs, newSpecs, this.rootSpecs, this.specs);
       } else if( newSpecs.constructor === Array ){
         newSpecs = {
@@ -1823,18 +1819,22 @@ var $ = function(input, specs){
       element = document.createElement(input);
     }
   }
-  var sdom = Wrap(element);
-  if( specs ){
-    if( specs.props ){
-      for( var name in specs.props ){
-        sdom.attr(name, specs.props[name]);
+  if( element ){
+    var sdom = Wrap(element);
+    if( specs ){
+      if( specs.props ){
+        for( var name in specs.props ){
+          sdom.attr(name, specs.props[name]);
+        }
+      }
+      if( specs.text ){
+        sdom.text( specs.text );
       }
     }
-    if( specs.text ){
-      sdom.text( specs.text );
-    }
+    return sdom;
+  } else {
+    return false;
   }
-  return sdom;
 };
 
 /**
