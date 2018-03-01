@@ -1,3 +1,3 @@
 * [About](#/About)
 * [Resume](#/Resume)
-* [Projects](#/projects/projects)
+* [Projects](#/projects/dev_project_list)
