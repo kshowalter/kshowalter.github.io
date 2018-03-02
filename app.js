@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 13);
+/******/ 	return __webpack_require__(__webpack_require__.s = 14);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -79,7 +79,7 @@ module.exports = {"tag":"div","props":{"class":"level_0"},"meta":{},"children":[
 /* 2 */
 /***/ (function(module, exports) {
 
-module.exports = {"tag":"div","props":{"class":"level_0"},"meta":{},"children":[{"tag":"div","props":{"class":null},"children":[{"tag":"div","props":{"class":"section level_2"},"children":[{"tag":"h2","children":["Software development"]},{"tag":"p","children":[{"tag":"a","children":["project list"],"props":{"href":"#/projects/dev_project_list"}}]}]}]}]}
+module.exports = {"tag":"div","props":{"class":"level_0"},"meta":{},"children":[{"tag":"div","props":{"class":null},"children":[{"tag":"div","props":{"class":"section level_2"},"children":[{"tag":"h2","children":["Software development"]},{"tag":"p","children":["I have a long connection to programing, and some years of professional development."]},{"tag":"p","children":[{"tag":"a","children":["project list"],"props":{"href":"#/projects/dev_project_list"}}]}]}]}]}
 
 /***/ }),
 /* 3 */
@@ -109,7 +109,7 @@ module.exports = {"tag":"div","props":{"class":"level_0"},"meta":{},"children":[
 /* 7 */
 /***/ (function(module, exports) {
 
-module.exports = {"tag":"div","props":{"class":"level_0"},"meta":{},"children":[{"tag":"ul","props":{"class":"list_level_0"},"children":[{"tag":"li","props":{"class":"list_level_0"},"children":[{"tag":"a","children":["About"],"props":{"href":"#/About"}}]},{"tag":"li","props":{"class":"list_level_0"},"children":[{"tag":"a","children":["Resume"],"props":{"href":"#/Resume"}}]},{"tag":"li","props":{"class":"list_level_0"},"children":[{"tag":"a","children":["Projects"],"props":{"href":"#/projects/projects"}}]}]}]}
+module.exports = {"tag":"div","props":{"class":"level_0"},"meta":{},"children":[{"tag":"ul","props":{"class":"list_level_0"},"children":[{"tag":"li","props":{"class":"list_level_0"},"children":[{"tag":"a","children":["About"],"props":{"href":"#/About"}}]},{"tag":"li","props":{"class":"list_level_0"},"children":[{"tag":"a","children":["Resume"],"props":{"href":"#/Resume"}}]},{"tag":"li","props":{"class":"list_level_0"},"children":[{"tag":"a","children":["Projects"],"props":{"href":"#/projects/dev_project_list"}}]}]}]}
 
 /***/ }),
 /* 8 */
@@ -139,31 +139,37 @@ module.exports = {"tag":"div","props":{"class":"level_0"},"meta":{},"children":[
 /* 12 */
 /***/ (function(module, exports) {
 
-module.exports = {"tag":"div","props":{"class":"level_0"},"meta":{},"children":[{"tag":"div","props":{"class":null},"children":[{"tag":"div","props":{"class":"section level_2"},"children":[{"tag":"h2","children":["About this site"]},{"tag":"p","children":["This is the home page of Keith Showalter. The code is currently hosted on ",{"tag":"a","children":["Github"],"props":{"href":"https://github.com/kshowalter/kshowalter"}},". Almost all of the code is written by me in regular javascript. See my philosophy on ",{"tag":"a","children":["JavaScript development"],"props":{"href":"#/philosophy/javascript"}},". "]},{"tag":"p","children":["Most of the pages are written Markdown (including some of the extended formating). ","A ",{"tag":"a","children":["Markdown Loader"],"props":{"href":"https://github.com/kshowalter/markdown_loader"}}," is used in Webpack to load the markdown files. ","The content of the files is loaded into the ",{"tag":"a","children":["SpecDOM API"],"props":{"href":"https://github.com/kshowalter/specDOM_API"}}," format. ","The entire site's content is sent to the client browser in this format. "]},{"tag":"p","children":["On the client, a ",{"tag":"a","children":["simple router"],"props":{"href":"https://github.com/kshowalter/hash_router"}}," selects the page to display, and the page specs are rendered with ",{"tag":"a","children":["SpecDOM"],"props":{"href":"https://github.com/kshowalter/specdom"}},". "]}]}]}]}
+module.exports = {"tag":"div","props":{"class":"level_0"},"meta":{},"children":[{"tag":"div","props":{"class":"section level_1"},"children":[{"tag":"h1","children":["Projects"]},{"tag":"div","props":{"class":"section level_2"},"children":[{"tag":"h2","children":["Development"]}]},{"tag":"div","props":{"class":"section level_2"},"children":[{"tag":"h2","children":["Mechanical Engineering"]}]}]}]}
 
 /***/ }),
 /* 13 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__(14);
-
+module.exports = {"tag":"div","props":{"class":"level_0"},"meta":{},"children":[{"tag":"div","props":{"class":null},"children":[{"tag":"div","props":{"class":"section level_2"},"children":[{"tag":"h2","children":["About this site"]},{"tag":"p","children":["This is the home page of Keith Showalter. The code is currently hosted on ",{"tag":"a","children":["Github"],"props":{"href":"https://github.com/kshowalter/kshowalter"}},". Almost all of the code is written by me in regular javascript. See my philosophy on ",{"tag":"a","children":["JavaScript development"],"props":{"href":"#/philosophy/javascript"}},". "]},{"tag":"p","children":["Most of the pages are written Markdown (including some of the extended formating). ","A ",{"tag":"a","children":["Markdown Loader"],"props":{"href":"https://github.com/kshowalter/markdown_loader"}}," is used in Webpack to load the markdown files. ","The content of the files is loaded into the ",{"tag":"a","children":["SpecDOM API"],"props":{"href":"https://github.com/kshowalter/specDOM_API"}}," format. ","The entire site's content is sent to the client browser in this format. "]},{"tag":"p","children":["On the client, a ",{"tag":"a","children":["simple router"],"props":{"href":"https://github.com/kshowalter/hash_router"}}," selects the page to display, and the page specs are rendered with ",{"tag":"a","children":["SpecDOM"],"props":{"href":"https://github.com/kshowalter/specdom"}},". "]}]}]}]}
 
 /***/ }),
 /* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(15);
+
+
+/***/ }),
+/* 15 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_normalize_css__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_normalize_css__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_normalize_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_normalize_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_simpledom__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_simpledom__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_simpledom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_simpledom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_functions__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_functions__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_functions___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_functions__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_hash_router__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_specdom__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_hash_router__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_specdom__ = __webpack_require__(25);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_specdom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_specdom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__settings__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__settings__ = __webpack_require__(28);
 /**
 * this is the app
 * @file_overview this the starting point for the application.
@@ -181,7 +187,7 @@ console.log('/\\');
 
 
 
-var page_file_list = __webpack_require__(28).keys();
+var page_file_list = __webpack_require__(29).keys();
 
 var pages = {};
 
@@ -256,7 +262,7 @@ function requireAll(r) {
     };
   });
 }
-requireAll(__webpack_require__(29));
+requireAll(__webpack_require__(30));
 
 //var about = require('markdown_parser!../page/about.md');
 console.log('pages', pages);
@@ -395,13 +401,13 @@ var router = Object(__WEBPACK_IMPORTED_MODULE_3_hash_router__["a" /* default */]
 router();
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(16);
+var content = __webpack_require__(17);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -409,7 +415,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(18)(content, options);
+var update = __webpack_require__(19)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -426,10 +432,10 @@ if(false) {
 }
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(17)(undefined);
+exports = module.exports = __webpack_require__(18)(undefined);
 // imports
 
 
@@ -440,7 +446,7 @@ exports.push([module.i, "/*! normalize.css v7.0.0 | MIT License | github.com/nec
 
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports) {
 
 /*
@@ -522,7 +528,7 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -578,7 +584,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(19);
+var	fixUrls = __webpack_require__(20);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -894,7 +900,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports) {
 
 
@@ -989,7 +995,7 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -1003,7 +1009,7 @@ module.exports = function (css) {
 /**
  * @module
  */
-var Wrap = __webpack_require__(21);
+var Wrap = __webpack_require__(22);
 
 /**
  * Wraps an HTMLElement with a jquery like function
@@ -1069,7 +1075,7 @@ module.exports = $;
 
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports) {
 
 
@@ -1155,7 +1161,7 @@ module.exports = Wrap;
 
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports) {
 
 var f = {};
@@ -1540,7 +1546,7 @@ module.exports = f;
 
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1584,7 +1590,7 @@ module.exports = f;
 
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -1595,7 +1601,7 @@ module.exports = f;
 
 
 /** @module SimpleDOM */
-var $ = __webpack_require__(25);
+var $ = __webpack_require__(26);
 
 
 var configChanged = function(newSpecs, oldSpecs){
@@ -1761,7 +1767,7 @@ module.exports = function(target){
 
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -1775,7 +1781,7 @@ module.exports = function(target){
 /**
  * @module
  */
-var Wrap = __webpack_require__(26);
+var Wrap = __webpack_require__(27);
 
 /**
  * Wraps an HTMLElement with a jquery like function
@@ -1845,7 +1851,7 @@ module.exports = $;
 
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports) {
 
 
@@ -1931,48 +1937,13 @@ module.exports = Wrap;
 
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 var settings = {};
 
 /* harmony default export */ __webpack_exports__["a"] = (settings);
-
-/***/ }),
-/* 28 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"./404.md": 0,
-	"./About.md": 1,
-	"./Dev.md": 2,
-	"./Mechanical_Engineering.md": 3,
-	"./Resume.md": 4,
-	"./experience/FSEC.md": 5,
-	"./experience/KSC.md": 6,
-	"./menu.md": 7,
-	"./philosophy/javascript.md": 8,
-	"./projects/SPD.md": 9,
-	"./projects/dev_project_list.md": 10,
-	"./projects/projects.md": 11,
-	"./projects/this_site.md": 12
-};
-function webpackContext(req) {
-	return __webpack_require__(webpackContextResolve(req));
-};
-function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) // check for number or string
-		throw new Error("Cannot find module '" + req + "'.");
-	return id;
-};
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = 28;
 
 /***/ }),
 /* 29 */
@@ -1990,8 +1961,9 @@ var map = {
 	"./philosophy/javascript.md": 8,
 	"./projects/SPD.md": 9,
 	"./projects/dev_project_list.md": 10,
-	"./projects/projects.md": 11,
-	"./projects/this_site.md": 12
+	"./projects/mech_project_list.md": 11,
+	"./projects/projects.md": 12,
+	"./projects/this_site.md": 13
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -2008,6 +1980,42 @@ webpackContext.keys = function webpackContextKeys() {
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
 webpackContext.id = 29;
+
+/***/ }),
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./404.md": 0,
+	"./About.md": 1,
+	"./Dev.md": 2,
+	"./Mechanical_Engineering.md": 3,
+	"./Resume.md": 4,
+	"./experience/FSEC.md": 5,
+	"./experience/KSC.md": 6,
+	"./menu.md": 7,
+	"./philosophy/javascript.md": 8,
+	"./projects/SPD.md": 9,
+	"./projects/dev_project_list.md": 10,
+	"./projects/mech_project_list.md": 11,
+	"./projects/projects.md": 12,
+	"./projects/this_site.md": 13
+};
+function webpackContext(req) {
+	return __webpack_require__(webpackContextResolve(req));
+};
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) // check for number or string
+		throw new Error("Cannot find module '" + req + "'.");
+	return id;
+};
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 30;
 
 /***/ })
 /******/ ]);
