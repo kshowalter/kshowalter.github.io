@@ -4,32 +4,41 @@
 
 To find a position where I can use my knowledge and skills to bring new designs and creations into the world, and further develop my own abilities.
 
-
 ## QUALIFICATIONS
-  * Three years application programing with Javascript and Node.js
-    * Developed an application to automatically generate PV drawing platform
+  * Four years application programing with Javascript and Node.js
+    * Developed an [application](#/projects/SPD) to automatically generate photovoltaic permit ready drawings
     * Front-end development with UI design and SVG creation
-    * Back-end and development development
-  * Five years as an engineer in PV testing
+    * Back-end development with Node.js
+    * Library/Framework creation
+    * [Project list](#/projects/dev_project_list)
+  * Five years as an engineer in photovoltaic testing
     * Testing procedure development
     * Data analysis
+    * Creation of data display and plotting webpages with PHP.
     * Project planning
     * Field work
-    * Experience with project management and documentation
-  * Two years of 3D design and mechanical analysis for the space program
+    * Project management and documentation
+  * Two years of 3D design and mechanical analysis for the [space program](#/experience/KSC)
     * Experience with Autodesk products, NX/Unigraphics, ProEngineer and others
   * Mechanical Engineering degree (BS)
 
 
 ## DESIGN EXPERIENCE
-  * Florida Solar Research Center: 
+  * Florida Solar Research Center:
     * Principal software engineer responsible for development of solar design program to produce NEC code compliant PV system schematics and drawings.
-    * PV testing engineer: Developing module testing procedures, planning array installations, quality management, misc. field work (instrumentation, troubleshooting, testing, etc.), PHP web app development, spreadsheet data analysis, Python data analysis.
-  * Kennedy Space Center: 
+    * PV testing engineer:
+      * Developing module testing procedures
+      * Planning array installations
+      * Quality management
+      * Misc. field work (instrumentation, troubleshooting, testing, etc.)
+      * PHP web app development
+      * Spreadsheet data analysis
+      * Python data analysis
+  * [Kennedy Space Center](#/experience/KSC):
     * Supported Shuttle program launch structure modifications by determining design requirements, 3D modeling and analysis, drafted drawings to meet NASA standards.
     * Designed a support platform for use during the assembly of the Orion crew capsule.
     * Mechanical failure analysis of Pad-A modifications in preparation for the Ares I-X launch.
- 
+
 
 ## EDUCATION
   * Florida International University, Miami, FL: B.S., Mechanical Engineering
