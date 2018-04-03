@@ -120,6 +120,7 @@ var router = hash_router(function(selection){
     console.log('re-ROUTING... to About');
     router('About');
   } else {
+    window.scrollTo(0, 0);
     var selected_page_id = selection.join('/');
     var selected_page_name = selection[selection.length-1];
     var selected_location = selection.slice(0,selection.length-1).join(' / ');
