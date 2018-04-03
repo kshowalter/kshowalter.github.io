@@ -1,10 +1,10 @@
 ## About me
 
-[![Keith Showalter|height:250,class:image_float_right](/assets/beach.jpeg)](/assets/beach.jpeg)
+[![Keith Showalter|height:142,class:image_float_right](/assets/beach.jpeg)](/assets/beach.jpeg)
 
 I am an engineer and a web developer.
 
-My university education is in mechanical engineering. 
+My university education is in mechanical engineering.
 I worked at the [Kennedy Space Center](#/experience/KSC) in a mechanical/structural group working on launch structures for the space program.
 
 I work at the [Florida Solar Energy Center](http://www.fsec.ucf.edu/en/) as a research engineer. A majority of my time here has been supporting the photovoltaic module testing, but in the last 4-5 years I have been developing [web based engineering software](#/projects/SPD).
