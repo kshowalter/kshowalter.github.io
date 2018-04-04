@@ -242,16 +242,18 @@ li {
   border: 2px solid white
 }
 
+.image_float_right {
+  display: block;
+  float: right;
+  margin: 0.25em;
+  border: 2px solid white
+}
+
 .image_center{
   display: block;
   margin: auto;
 }
 
-.image_float_right {
-  display: block;
-  float: right;
-  margin: 2em;
-}
 
 .image_full_width {
   display: block;
