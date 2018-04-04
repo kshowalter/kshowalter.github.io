@@ -1,6 +1,6 @@
 ## About me
 
-[![Keith Showalter|height:142,class:image_float_right](/assets/beach.jpeg)](/assets/beach.jpeg)
+[![Keith Showalter|height:142,class:image_float_right](/assets/self_portrait_crop.jpg)](/assets/self_portrait.jpg)
 
 I am an engineer and a web developer.
 
