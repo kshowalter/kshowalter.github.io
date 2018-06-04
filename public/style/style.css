@@ -265,6 +265,13 @@ li {
 }
 
 
+.image_icon {
+  -webkit-transform: translateY(-10%);
+  -ms-transform: translateY(-10%);
+  transform: translateY(-10%);
+}
+
+
 a[href^="http://"]:after,
 a[href^="https://"]:after {
   content: url(/assets/Icon_External_Link.png);

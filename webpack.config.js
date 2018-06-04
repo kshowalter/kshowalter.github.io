@@ -10,7 +10,7 @@ module.exports = {
     //path: path.resolve(__dirname, 'public'),
     path: path.resolve(__dirname),
     publicPath: '/',
-    filename: '[name].js'
+    filename: 'public/[name].js'
   },
 
   //plugins: [
@@ -20,18 +20,18 @@ module.exports = {
   //],
 
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         include: /client/,
         //exclude: /node_modules/,
-        loader: 'babel-loader'
+        use: 'babel-loader'
       },
       {
         test: /\.md$/,
         include: /page/,
         //exclude: /node_modules/,
-        loader: 'markdown_loader'
+        use: 'markdown_loader'
       },
       {
         test: /\.css$/,

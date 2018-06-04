@@ -174,6 +174,7 @@ var router = hash_router(function(selection){
 
     if( pages['menu'] ){
       pages['menu'].specs.children[0].children.forEach(function(li_spec){
+        console.log(li_spec);
         var name = li_spec.children[0].children[0];
         var prety_name = f.pretty_name(name);
         var href = li_spec.children[0].props.href;

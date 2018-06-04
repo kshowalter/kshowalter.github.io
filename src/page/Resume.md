@@ -5,16 +5,19 @@
 To find a position where I can use my knowledge and skills to bring new designs and creations into the world, and further develop my own abilities.
 
 ## QUALIFICATIONS
-  * Four years application programing with Javascript and Node.js
+  * Four years full stack web application programing with Javascript and Node.js
     * Developed an [application](#/projects/SPD) to automatically generate photovoltaic permit ready drawings
     * Front-end development with UI design and SVG creation
     * Back-end development with Node.js
-    * Library/Framework creation
+    * Library/Framework creation (custom Redux-React.js like framework, custom jQuery replacment)
+    * Document-oriented database managment and use (MongoDB), relational database use (MySQL, Oracle)
+    * CSS interactive UI creation
+    * Git, issues, project managment, API development.
     * [Project list](#/projects/dev_project_list)
   * Five years as an engineer in photovoltaic testing
+    * Creation of data display and plotting webpages with PHP.
     * Testing procedure development
     * Data analysis
-    * Creation of data display and plotting webpages with PHP.
     * Project planning
     * Field work
     * Project management and documentation
